@@ -44,7 +44,8 @@
             }
 
             textarea {
-                min-width: 80%;max-width: 80%;
+                min-width: 80%;
+                max-width: 80%;
                 margin: 0 0 30px 0;
                 min-height: 150px;max-height: 150px;
                 border: 0;
@@ -73,6 +74,49 @@
                     background-color: rgb(255, 180, 41);
                     box-shadow: 0 0 10px rgba(0, 0, 0, 0.705);
                     transform: scale(1.05);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .contact {
+        .contact-container {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .contact {
+        .contact-container {
+
+            form {
+                input {
+                    width: 60%;
+                }
+                textarea {
+                    min-width: 90%;
+                    max-width: 90%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .contact {
+        .contact-container {
+            width: 90%;
+            form {
+                input {
+                    width: 80%;
+                }
+
+                textarea {
+                    min-width: 100%;
+                    max-width: 100%;
                 }
             }
         }

@@ -7,7 +7,7 @@ const AboutUs = () => {
             <div class="about-container">
                 <h2>About Us</h2>
                 <h3>GetNote helps you share</h3>
-                <p>This platform alows any individual with a specific piece of note or documentation to help them share
+                <p>This platform allows any individual with a specific piece of note or documentation to help them share
                     their knowlege and research easily, by providing a hotspot for like minded people to communicate through their abilty
                     of note writing, any student or person can find a note that they wanted to write them selfs provided by people, who already
                     have experince in that subject or field, students can now forget about the hastle of note writing before exams and forcuse on
